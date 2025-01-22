@@ -4,25 +4,24 @@
 
 int main()
 {
-    int arr, last, n;
-
+    int n = 10;
     int arr[] = {2, 54, 24, 65, 234, 5467, 234, 657, 89, 44};
+    int last; 
 
-    printf("Given array is %d", arr[]);
-
-    int arr[n + 1];
-    for (int i = 0; i < n; i++)
-    {
-        scanf("%d", &last);
+    printf("Given array is:\n");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
     }
+    printf("\n");
 
-    arr[] = last;
+    printf("Enter the element to insert at the end: ");
+    scanf("%d", &last);
 
-    // Print the updated array
+    arr[n] = last;
+
     printf("Array after insertion:\n");
-    for (int i = 0; i <= n; i++)
-    {
-        printf("%d ", arr[]);
+    for (int i = 0; i <= n; i++) {
+        printf("%d ", arr[i]);
     }
     printf("\n");
 

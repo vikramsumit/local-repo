@@ -1,7 +1,7 @@
 public class Switch
 {
     public static void main(String[] args) {
-        int num=100;
+        int num=1gt00;
 
         switch(num)
         {

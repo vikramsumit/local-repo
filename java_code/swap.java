@@ -1,7 +1,7 @@
 //SWAP VALUE EXCHANGE
 
 public class swap {
-    public static void swap(int a, int b) {
+    public static void Swap(int a, int b) {
         
         int temopu=a;
         a=b;
@@ -14,7 +14,7 @@ public class swap {
     public static void main(String[] args) {
         int a=55;
         int b=44;
-        swap(a,b);
+        Swap(a,b);
         
     }
 }
